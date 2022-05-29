@@ -2,6 +2,10 @@
 
 <p align="center">A simple animation of a 3D book created with Three.js library!</p>
 
+## 🔗 Links
+
+- [View Live Website](https://andrey-mitko.github.io/3d-book/ "Live View")
+
 ## 🛠 Built With
 
 - HTML
