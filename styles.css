@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap");
+body {
+  background: linear-gradient(55deg, #85d1db 0%, #c4dee1 85%);
+  color: #272727;
+  font-family: IBM Plex Sans;
+  font-size: 36px;
+  line-height: 1.25;
+  min-height: calc(1500px + 100vh);
+  overscroll-behavior-y: none;
+}
+
+section.book {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+section.content {
+  width: 50%;
+  max-width: 600px;
+  padding: 32px;
+  position: relative;
+  z-index: 1;
+}
+
+section.content h1 {
+  margin-bottom: 32px;
+}
+
+section.content p {
+  margin-bottom: 100px;
+}
+
+section.content li {
+  margin-bottom: 100px;
+  padding-left: 48px;
+  position: @relative;
+}
